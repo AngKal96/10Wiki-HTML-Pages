@@ -1,0 +1,114 @@
+
+
+.article-ul {
+    list-style-type: disc;
+}
+
+.references {
+    width: 100%;
+    height: 240px;
+}
+
+.references li {
+    padding: 2px 0px;
+}
+
+.ulsources {
+    width: 100%;
+    height: 140px;
+}
+
+.cenref-col {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.leftref-col,
+.rightref-col,
+.cenref-col {
+    width: 30%;
+    font-size: 10px;
+    float: left;
+    line-height: 100%;
+
+}
+
+.censources-col {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.leftsources-col,
+.rightsources-col,
+.censources-col {
+    width: 30%;
+    font-size: 13px;
+    float: left;
+    line-height: 100%;
+}
+
+.img1-pg5 {
+    float: right;
+    width: 15%;
+}
+
+.img2-pg5 {
+    float: right;
+    width: 26%;
+}
+
+.img3-pg5 {
+    float: right;
+    width: 50%;
+}
+
+.img4-pg5 {
+    float: right;
+    width: 14%;
+}
+
+table {
+    font-size: 11px;
+    padding: 5px;
+    text-align: left;
+}
+
+.searchbar {
+    width: 300px;
+    height: 22px;   
+}
+
+.contents {
+    list-style-type: none;
+    border: 1px solid #a2a9b1;
+    background-color: #f8f9fa;
+    width: 97px;
+    text-align: left;
+    padding: 7px;
+    margin-left: 18px;
+}
+
+.infobox {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #a2a9b1;
+    background-color: #f8f9fa;
+    width: 250px;
+    font-size: 12px;
+    align-items: center;
+    float: right;
+    margin: 10px;
+}
+
+.infobox p {
+    margin: 0px;
+}
+
+.infobox-title {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.infobox img {
+    width: 60%;
+}

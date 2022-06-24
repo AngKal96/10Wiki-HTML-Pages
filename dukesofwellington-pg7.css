@@ -1,0 +1,36 @@
+
+table {
+width: 50%;
+border: 1px solid #a2a9b1;
+background-color: #eaecf0;
+text-align: center;
+}
+
+.pg7-table th {
+background-color: #d8d9da;
+border: 1px solid #8c8d8f;
+}
+
+.pg7-table td {
+border: 1px solid #8c8d8f;
+padding: 6px 8px;
+background-color: #f8f9fa;
+}
+
+.pg7-table td p {
+font-size: 12px;
+}
+
+.table-container {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    float: right;
+}
+
+.img1-pg7 {
+    width: 50%;
+    font-size: 12px;
+    text-align: left;
+    border: 1px solid #a2a9b1;
+}

@@ -1,0 +1,97 @@
+.title {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: black;
+    text-align: left;
+    padding: 7px 0;
+    width: 100%;
+    height: 20px;
+}
+
+.section-title {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    text-align: left;
+    color: black;
+}
+
+.p-title {
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    color: black;
+}
+
+.subtitle {
+    font-size: 12px;
+    text-align: left;
+}
+
+.article-ul {
+    list-style-type: disc;
+}
+
+.references {
+    width: 100%;
+    height: 340px;
+}
+
+.references li {
+    padding: 2px 0px;
+}
+
+.cenref-col {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.leftref-col,
+.rightref-col,
+.cenref-col {
+    width: 30%;
+    font-size: 10px;
+    float: left;
+    line-height: 100%;
+}
+
+table {
+    font-size: 11px;
+    padding: 5px;
+    text-align: left;
+}
+
+.contents {
+    list-style-type: none;
+    border: 1px solid #a2a9b1;
+    background-color: #f8f9fa;
+    width: 97px;
+    text-align: left;
+    padding: 7px;
+    margin-left: 18px;
+}
+
+.infobox {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #a2a9b1;
+    background-color: #f8f9fa;
+    width: 280px;
+    font-size: 12px;
+    align-items: center;
+    float: right;
+    margin: 10px;
+}
+
+.infobox p {
+    margin: 0px;
+}
+
+.infobox-title {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.infobox img {
+    width: 80%;
+}

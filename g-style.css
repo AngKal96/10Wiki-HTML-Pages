@@ -1,0 +1,66 @@
+.body {
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 170%;
+}
+
+.article-bg {
+    background-color: white;
+}
+
+.navbar-bg {
+    background-color: #e0dddd;
+}
+
+.title {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+}
+
+.section-title {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    text-align: left;
+    color: black;
+}
+
+.p-title {
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    color: black;
+}
+
+.sidenav {
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+.sidenav li {
+    list-style-type: none;
+}
+
+.topnav {
+    font-family: sans-serif;
+    font-size: 12px;
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: nowrap;
+}
+footer {
+    font-size: 10px;
+    background-color: #f9f9f9;
+}
+
+footer ul {
+    list-style: none;
+    
+}
+
+footer li p {
+    padding: 0px 6px;
+    float: left;
+}

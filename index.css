@@ -1,0 +1,172 @@
+.homepg-title {
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    padding: 7px 0;
+    width: 100%;
+    height: 20px;
+    margin-bottom: 0px;
+}
+
+.homepg-subtitle {
+    font-size: 12px;
+    text-align: center;
+    padding: 0px 0;
+    width: 100%;
+    height: 20px;
+}
+.div-headerbackground {
+    background-color: #f9f9f9;
+    width: 100%;
+    height: 115px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding: 0px 5px;
+
+}
+
+.div-articlebackground1 {
+    background-color: #f5fffa;
+    width: 100%;
+    height: 900px;
+    border: 1px solid #cef2e0;
+    padding: 0px 5px;
+}
+
+.div-articletitlebackground1 {
+    background-color: #cef2e0;
+    border: 1px solid #a3bfb1;
+    margin: 5px 10px;
+}
+
+.div-articlebackground2 {
+    background-color: #f5faff;
+    width: 100%;
+    border: 1px solid #cedff2;
+    height: 900px;
+    padding: 0px 5px;
+
+}
+
+.img1 {
+    float: left;
+    margin: 10px;
+}
+
+.img2 {
+    float: right;
+    margin: 5px;
+    width: 22%;
+}
+
+.img3 {
+    float: right;
+    margin: 10px;
+    width: 20%;
+}
+
+.img4 {
+    float: right;
+    margin: 10px;
+    width: 18%;
+}
+
+.img5 {
+    float: left;
+    margin: 10px;
+    width: 20%;
+}
+
+
+.div-articletitlebackground2 {
+    background-color: #cedff2;
+    border: 1px solid #a3b0bf;
+    margin: 5px 10px;
+}
+
+.div-articlebackground3 {
+    background-color: #faf5ff;
+    width: 1300px;
+    border: 1px solid #ddcef2;
+    height: 450px;
+    margin: 920px 0px 5px 0px;
+    padding: 0px 5px;
+
+}
+
+.div-articletitlebackground3 {
+    background-color: #ddcef2;
+    border: 1px solid #afa3bf;
+    margin: 5px 10px;
+}
+
+.div-articlebackground4 {
+    background-color: white;
+    width: 1300px;
+    border: 1px solid #e2e2e2;
+    height: 772px;
+    margin-top: 5px;
+
+}
+
+.div-articletitlebackground4 {
+    background-color: #eee;
+    border: 1px solid #ddd;
+    margin: 5px 10px;
+}
+
+table {
+    font-size: 16px;
+    margin-left: 20px;
+    width: 1100px;
+}
+
+td {
+    width: 20px;
+    ;
+}
+
+table font {
+    float: left;
+}
+
+table img {
+    width: 70%;
+}
+
+.article-footer1 {
+    text-align: right;
+}
+
+.article-footer2 {
+    text-align: left;
+}
+
+.wikilanguages {
+    text-align: center;
+}
+
+.table-img2,
+.table-img6,
+.table-img10 {
+    width: 80%;
+}
+
+.table-img4,
+.table-img8,
+.table-img12 {
+    width: 80%;
+}
+
+.left-col {
+    float: left;
+}
+
+.right-col {
+    float: right;
+}
+
+.left-col,
+.right-col {
+    width: 49%;
+}
