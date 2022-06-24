@@ -5,6 +5,7 @@
 }
 
 .article-bg {
+    border: 1px solid #a7d7f9;
     background-color: white;
 }
 
@@ -50,6 +51,7 @@
     align-content: flex-start;
     flex-wrap: nowrap;
 }
+
 footer {
     font-size: 10px;
     background-color: #f9f9f9;
@@ -57,7 +59,7 @@ footer {
 
 footer ul {
     list-style: none;
-    
+
 }
 
 footer li p {
