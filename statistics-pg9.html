@@ -10,6 +10,7 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
   <link rel="stylesheet" href="g-style.css">
   <link rel="stylesheet" href="statistics-pg9.css">
 </head>
@@ -17,11 +18,11 @@
 <body class="body">
   <div class="container-fluid">
     <div class="row">
-      <div class="sidenav col-1 fixed-side pr-4 navbar-bg">
+      <div class="sidenav col-1 p-0 navbar-bg">
         <a href="index.html" class="wiki-logo">
           <img src="https://upload.wikimedia.org/wikipedia/commons/b/b3/Wikipedia-logo-v2-en.svg" class="logo-img" />
         </a>
-        <ul class="p-0">
+        <ul class="pl-3">
           <li><a href="index.html">Main page</a></li>
           <li><a href="#contents">Contents</a></li>
           <li><a href="#current events">Current events</a></li>
@@ -54,17 +55,28 @@
         </ul>
       </div>
       <div class="col navbar-bg">
-        <ul class="list-inline pt-3">
-          <li class="list-inline-item">Article</li>
-          <li class="list-inline-item">Talk</li>
+        <div class="row">
+          <div class="col">
+            <ul class="list-inline topnav float-right">
+              <li class="list-inline-item"><i class='fas fa-user-alt'></i> Not logged in</li>
+              <li class="list-inline-item"><a href="#">Talk</a></li>
+              <li class="list-inline-item"><a href="#">Contributions</a></li>
+              <li class="list-inline-item"><a href="#">Create account</a></li>
+              <li class="list-inline-item"><a href="#">Log in</a></li>
+            </ul>
+          </div>
+        </div>
+        <ul class="list-inline pt-0 topnav">
+          <li class="list-inline-item"><a href="#">Article</a></li>
+          <li class="list-inline-item"><a href="#">Talk</a></li>
           <span class="float-right">
-            <li class="list-inline-item">Read</li>
-            <li class="list-inline-item">Edit</li>
-            <li class="list-inline-item">View History</li>
+            <li class="list-inline-item"><a href="#">Read</a></li>
+            <li class="list-inline-item"><a href="#">Edit</a></li>
+            <li class="list-inline-item"><a href="#">View History</a></li>
             <li class="list-inline-item">
               <div class="input-group">
                 <input class="form-control" placeholder="Search Wikipedia...">
-                <div class="input-group-addon"><i class="fa fa-search"></i>
+                <div class="input-group-addon">
                 </div>
               </div>
           </span>
